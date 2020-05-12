@@ -1,0 +1,309 @@
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+
+
+
+#closed-captions p {
+    opacity: 0;
+    transition: .05s;
+    position: absolute;
+}
+
+#closed-captions .on {
+    opacity: 1;
+}
+
+#closed-captions .off {
+    transition: .2s;
+    opacity: 0;
+}
+
+.voice2, .voice3, .voice4 {
+     font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.voice1 {
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 800;
+}
+
+/*.sound1 {
+    padding: 2em;
+    transition: 2s;
+    transform: rotate(1s);
+*/
+}
+
+body {
+    background-color: white;
+    font-family: "brenner";
+}
+
+/* **********************************************
+The first paragraph, with extended timing for
+    all siblings. Basically what it does is that
+    it shows the text after a delay, which
+    corresponds with the time that the word is
+    spoken.
+You probably want to change the styling.
+********************************************** */
+.p0 span {
+    opacity: 0;
+    font-family: brenner;
+}
+
+.p0.on span:first-of-type {
+    font-family: "Brenner Mono Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s;
+}
+
+.p0.on span:nth-of-type(2) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(3) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(4) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(5) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(6) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(7) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(8) {
+    font-family: "Brenner Mono Bold";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5em;
+    opacity: 1;
+    transition: 0s .4s;
+    margin-right: -.25em;
+    font-weight: 400;
+    color: #395933;
+}
+
+.p0.on span:nth-of-type(9) {
+    font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+    opacity: 1;
+    transition: 0s 3s;
+}
+
+.p0.on span:nth-of-type(10) {
+    font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+    opacity: 1;
+    transition: 0s 3.2s;
+}
+
+.p0.on span:nth-of-type(11) {
+    font-family: "Brenner Mono Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s 3.7s;
+}
+
+/*Hieronder staat p1 */
+.p1 span {
+    opacity: 0;
+    font-family: brenner;
+}
+
+.p1.on span:first-of-type {
+    font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s;
+    color: #395933;
+}
+
+
+.p1.on span:nth-of-type(2) {
+    font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s .4s;
+    font-weight: 400;
+}
+
+.p2 span {
+    font-family: "Brenner Mono Regular";
+    font-style: normal;
+    font-weight: 400;
+    animation-duration:
+}
+
+.p2.on span:first-of-type {
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s;
+}
+
+
+.p2.on span:nth-of-type(2) {
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s .4s;
+    color: #395933;
+}
+
+.p2.on span:nth-of-type(2) {
+    font-size: 1em;
+    opacity: 1;
+    transition: 0s .4s;
+}
+
+.p3.on span:nth-of-type(2) {
+    font-family: "Brenner Mono Bold";
+font-style: Italic;
+font-weight: 800;
+    color: red;
+
+}
+
+.p4.on span:nth-of-type(2)  {
+    font-family: "Brenner Mono";
+font-style: Normal;
+font-weight: 800;
+    background-color: black;
+    padding: 0.4em;
+    color: red;
+}
+
+.p4.on span:nth-of-type(4), .p4.on span:nth-of-type(7) {
+    background-color: black;
+    padding: 0.4em;
+    color: red;
+}
+
+.p5.on span:nth-of-type(3), .p5.on span:nth-of-type(6), .p5.on span:nth-of-type(7) {
+    color: red;
+}
+
+.p5.on span:nth-of-type(1), .p5.on span:nth-of-type(4)  {
+    font-family: "Brenner Mono";
+font-style: Normal;
+font-weight: 800;
+    color: black;
+}
+
+.p6.on span:nth-of-type(1), .p6.on span:nth-of-type(2) {
+    color: red;
+}
+
+.p6.on span:nth-of-type(3) {
+   font-family: "Brenner Mono";
+font-style: Normal;
+font-weight: 800;
+    color: red;
+    font-size: 1em;
+    transition: 1s;
+}
+
+.p7.on span:nth-of-type(5), .p7.on span:nth-of-type(6)  {
+    font-family: "Brenner Mono";
+font-style: Normal;
+font-weight: 800;
+}
+
+.p7.on span:nth-of-type(9) {
+    background-color: black;
+    padding: 0.5em;
+    color: white
+}
+
+.p41.on {
+    color: yellowgreen;
+}
+
+.p42.on {
+    color: orange;
+}
+
+.p43.on {
+    color: red;
+}
+
+
+
+
+
